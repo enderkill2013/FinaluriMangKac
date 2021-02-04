@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationHomeFragment"
+        android:icon="@drawable/ic_baseline_mangalist"
+        android:title="Mangalist"/>
+    <item
+        android:id="@+id/navigationMusicListFragment"
+        android:icon="@drawable/ic_baseline_musiclist"
+        android:title="Musiclist"/>
+    <item
+        android:id="@+id/navigationProfileInfoFragment"
+        android:icon="@drawable/ic_baseline_profileinfo"
+        android:title="Profile"/>
+
+
+</menu>

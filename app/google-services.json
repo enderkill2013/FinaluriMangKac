@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302332714274",
+    "project_id": "saboloogamocda",
+    "storage_bucket": "saboloogamocda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302332714274:android:8d6e75247f1149b394997b",
+        "android_client_info": {
+          "package_name": "com.example.finalurimangkac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302332714274-an6d6uoc8qm8jl0okku90skq469m0jk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7qxHKo3pwh_AaO0dtMupXoga2gW_YwLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302332714274-an6d6uoc8qm8jl0okku90skq469m0jk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

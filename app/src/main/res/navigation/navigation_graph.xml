@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/navigationHomeFragment">
+
+    <fragment
+        android:id="@+id/navigationHomeFragment"
+        android:name="com.example.finalurimangkac.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="List" >
+        <action
+            android:id="@+id/action_homeFragment_to_musicListFragment2"
+            app:destination="@id/navigationMusicListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationMusicListFragment"
+        tools:layout="@layout/fragment_musiclist"
+        android:name="com.example.finalurimangkac.fragments.MusicListFragment"
+        android:label="MusicList" >
+        <action
+            android:id="@+id/action_musicListFragment_to_profileInfoFragment"
+            app:destination="@id/navigationProfileInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationProfileInfoFragment"
+        tools:layout="@layout/fragment_profileinfo"
+        android:name="com.example.finalurimangkac.fragments.ProfileInfoFragment"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profileInfoFragment_to_homeFragment2"
+            app:destination="@id/navigationHomeFragment" />
+    </fragment>
+</navigation>
